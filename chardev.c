@@ -6,7 +6,6 @@
 /*
  * Prototypes - this would normally go in a .h file
  */
-
 int init_module(void);
 void cleanup_module(void);
 static int device_open(struct inode *, struct file *);
